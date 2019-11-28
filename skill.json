@@ -1,0 +1,52 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "ask-custom-wish-board-default",
+          "sourceDir": "lambda/us-east-1_ask-custom-wish-board-default"
+        },
+        "interfaces": []
+      }
+    },
+    "manifestVersion": "1.0",
+    "permissions": [
+      {
+        "name": "alexa::person_id:read"
+      }
+    ],
+    "privacyAndCompliance": {
+      "locales": {
+        "ja-JP": {
+          "privacyPolicyUrl": "http://ikegami.tokyo/2019/11/17/wish-borad-ppl/"
+        }
+      },
+      "allowsPurchases": true,
+      "usesPersonalInfo": false,
+      "isChildDirected": false,
+      "isExportCompliant": true,
+      "containsAds": false
+    },
+    "publishingInformation": {
+      "locales": {
+        "ja-JP": {
+          "name": "パパの目安箱",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/9c8b/92f48a0846a54ca2b95ac8c60b1bbf54/APP_ICON?versionId=Vxwjwl00j0XV6g1NVhmHoUr7jONYGnde&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20191118T115630Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20191118%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=7946bdda6cd78312320976c4ab11920ce4e0093425e62449518cab31e5719bd4",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/9174/1b04520cbda04f84827fc4d2811d6d30/APP_ICON_LARGE?versionId=A9k4TKqWUfoP_S2C_LDBZoAPa6qSeyuZ&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20191118T115630Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20191118%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=8c9f71d0b05141457eb43c8311126dcd8eafa029b696224a65c6e721454dcac8",
+          "summary": "パパへの伝言やお願いを登録するためのスキル",
+          "description": "普段、パパに言いにくいような事をスキルを通じて伝えましょう。\n伝言や、お願い、日頃のお礼など、パパに伝えたい事を登録しましょう。\n\n※このスキルはパーソナライズ機能の有効かと音声プロフィールの登録が必須となります。\n\nパパ以外の人：\n　・伝言などのメッセージを登録します。\nパパ\n　・パパ以外の人が登録した伝言を確認します。\n\n\n--\nスキルアイコンはいらすとやさまのものを使用させていただきました。\nhttps://www.irasutoya.com/",
+          "examplePhrases": [
+            "アレクサ、パパの目安箱を開いて",
+            "伝言を聞いて",
+            "伝言を確認"
+          ],
+          "keywords": []
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "子供：\n0.アレクサアプリにて音声プロフィールを登録します。\n1. 「アレクサ、パパの目安箱を開いて」\n2. (パパかどうか聞かれるので)「違います」\n3. 「伝言を登録」\n4. 伝言を伝えます\n5.「伝言を確認」\n\nパパ\n0.アレクサアプリにて音声プロフィールを登録します。\n1. 「アレクサ、ウィッシュのリストを開いて」\n2. (パパかどうか聞かれるので)「パパです」\n3.「伝言を確認」\n\nプレミアム機能：\n1. 「プレミアム機能を購入」",
+      "category": "FRIENDS_AND_FAMILY",
+      "distributionCountries": []
+    }
+  }
+}
