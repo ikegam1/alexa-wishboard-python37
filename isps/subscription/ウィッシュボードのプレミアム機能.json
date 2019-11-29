@@ -9,11 +9,11 @@
   "publishingInformation": {
     "locales": {
       "ja-JP": {
-        "name": "パパの目安箱のプレミアム機能 ",
-        "summary": "パパの目安箱スキルの利用できる人数制限を解除する機能 ",
-        "description": "パパの目安箱スキルはパパがひとりとその他の家族がふたりまで利用できるスキルです。この機能を購入する事によってその制限がなくなり、音声プロファイルを登録した方であれが何人でも利用ができるようになります。 ",
-        "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/5313/995c053279fe47349748f86cff4be3cd/APP_ICON?versionId=xHOTqGELQ_i3Fv0LTRDjzUfTVsoVYmCp&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20191116T131725Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20191116%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=fe6765eb87b9b7b3933735ac4313d02369dfc70c6bceb137ad25e147854d80c4",
-        "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/45a2/603b9037c7b54ea3aa38efc3fc0c7f2c/APP_ICON_LARGE?versionId=Lk211QQJ4syoev9jl0PbkyTS9G3Snam3&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20191116T131725Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20191116%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=492ef515cf8eb4464f8707ee5affbb8bcd9089b6c12f6aaddc545ccd2a89140d",
+        "name": "パパの目安箱のプレミアム機能",
+        "summary": "パパの目安箱スキルの利用できる人数制限を解除する機能",
+        "description": "パパの目安箱スキルはパパがひとりとその他の家族がふたりまで利用できるスキルです。この機能を購入する事によってその制限がなくなり、音声プロファイルを登録した方\nであれが何人でも利用ができるようになります。",
+        "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/3ec2/f339a8d27f51435a89228e73bbb34531/APP_ICON?versionId=wOy11yNKimR2HIKx3WYjtDSXCGCHSo9a&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20191129T131018Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20191129%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=3029ca27b1d4f5900c11b54b5152dc13fb70b2d83530be58b285e879096be8bb",
+        "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/afd9/71caf0aa6a2b4f3694696006206d6a85/APP_ICON_LARGE?versionId=Yr8zMC3dgqNrSPVGENtbPIFo.Mub4djL&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20191129T131018Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20191129%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=911100654c88d5bc6d2c5c6b85b8b7fa5f095dfee23b1d3dfe9748029e30ad2e",
         "examplePhrases": [
           "For Future Use – Example Phrase 1",
           "For Future Use – Example Phrase 2",
@@ -23,8 +23,8 @@
           "For Future Use – Keywords"
         ],
         "customProductPrompts": {
-          "purchasePromptDescription": "パパの目安箱のプレミアム機能 ",
-          "boughtCardDescription": "パパの目安箱のプレミアム機能 "
+          "purchasePromptDescription": "パパの目安箱のプレミアム機能は、利用できる人数制限を解除する機能です。",
+          "boughtCardDescription": "パパの目安箱スキルの利用できる人数制限を解除する機能"
         }
       }
     },
@@ -51,6 +51,6 @@
       }
     }
   },
-  "testingInstructions": "パパの目安箱のプレミアム機能 ",
+  "testingInstructions": "「プレミアム機能を購入」といい、商品を購入します。\n購入後は利用人数の制限がなくなるため、パパが1名まで、パパ以外の人が2名までという制限がなくなります。\n購入後に新たな音声プロフィールにてスキルを開き、「パパです」もしくは「違う人です」と言ってください。\n購入のキャンセルは「プレミアム機能をキャンセル」、購入状況の確認は「有効なアイテムを教えて」と言ってください。\n",
   "purchasableState": "PURCHASABLE"
 }

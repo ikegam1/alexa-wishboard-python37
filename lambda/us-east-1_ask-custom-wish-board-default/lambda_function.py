@@ -681,7 +681,7 @@ class BuyResponseHandler(AbstractRequestHandler):
                 purchase_result = handler_input.request_envelope.request.payload.get(
                     "purchaseResult")
                 if purchase_result == PurchaseResult.ACCEPTED.value:
-                    speech = "{} が有効になっています。次は何をしますか？".format(product[0].name)
+                    speech = "{} が有効になっています。ご利用になれる人数が増えました。機能を利用するには一度スキルを終了し、新たな音声プロフィールにてスキルを起動してください。さて、次は何をしますか？".format(product[0].name)
                     reprompt = speech
                 elif purchase_result in (
                         PurchaseResult.DECLINED.value,

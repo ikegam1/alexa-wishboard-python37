@@ -1,352 +1,353 @@
 {
   "interactionModel": {
-      "languageModel": {
-          "invocationName": "パパの目安箱",
-          "intents": [
-              {
-                  "name": "AMAZON.CancelIntent",
-                  "samples": []
-              },
-              {
-                  "name": "AMAZON.HelpIntent",
-                  "samples": []
-              },
-              {
-                  "name": "AMAZON.StopIntent",
-                  "samples": []
-              },
-              {
-                  "name": "AMAZON.NavigateHomeIntent",
-                  "samples": []
-              },
-              {
-                  "name": "WishAddIntent",
-                  "slots": [
-                      {
-                          "name": "wish",
-                          "type": "wish"
-                      },
-                      {
-                          "name": "query",
-                          "type": "AMAZON.SearchQuery",
-                          "samples": [
-                              "{query}"
-                          ]
-                      }
-                  ],
-                  "samples": [
-                      "パパに {wish}",
-                      "{wish} を聞いて",
-                      "{wish} を登録",
-                      "{wish} をする"
-                  ]
-              },
-              {
-                  "name": "WishListIntent",
-                  "slots": [
-                      {
-                          "name": "wish",
-                          "type": "wish"
-                      }
-                  ],
-                  "samples": [
-                      "{wish} を確認",
-                      "{wish} のリスト",
-                      "{wish} を見る",
-                      "{wish} を聞く",
-                      "{wish} を教えて"
-                  ]
-              },
-              {
-                  "name": "WishDeleteIntent",
-                  "slots": [
-                      {
-                          "name": "wish",
-                          "type": "wish"
-                      },
-                      {
-                          "name": "confirm",
-                          "type": "confirm",
-                          "samples": [
-                              "{confirm}"
-                          ]
-                      }
-                  ],
-                  "samples": [
-                      " {wish} を消して",
-                      " {wish} を消す",
-                      " {wish} を削除"
-                  ]
-              },
-              {
-                  "name": "AnswerClassIntent",
-                  "slots": [
-                      {
-                          "name": "class",
-                          "type": "class"
-                      }
-                  ],
-                  "samples": [
-                      "{class}",
-                      "{class} です"
-                  ]
-              },
-              {
-                  "name": "PremiumInfoIntent",
-                  "slots": [
-                      {
-                          "name": "productName",
-                          "type": "productName"
-                      }
-                  ],
-                  "samples": [
-                      "パパの目安箱の {productName}",
-                      "{productName} が知りたい",
-                      "{productName} について知りたい",
-                      "{productName} について教えて",
-                      "{productName} について",
-                      "{productName} を教えて"
-                  ]
-              },
-              {
-                  "name": "BuyIntent",
-                  "slots": [
-                      {
-                          "name": "productName",
-                          "type": "productName"
-                      }
-                  ],
-                  "samples": [
-                      "{productName} を使う",
-                      "{productName} を契約",
-                      "{productName} を買う",
-                      "{productName} を購入"
-                  ]
-              },
-              {
-                  "name": "ShoppingIntent",
-                  "samples": [
-                      "有効なアイテムを教えて",
-                      "何を買ったか教えて",
-                      "プレミアム機能は有効ですか"
-                  ]
-              },
-              {
-                  "name": "CancelSubscriptionIntent",
-                  "slots": [
-                      {
-                          "name": "productName",
-                          "type": "productName"
-                      }
-                  ],
-                  "samples": [
-                      "{productName} を返金",
-                      "{productName} を返品",
-                      "{productName} をキャンセル"
-                  ]
-              }
+    "languageModel": {
+      "invocationName": "パパの目安箱",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "WishAddIntent",
+          "slots": [
+            {
+              "name": "wish",
+              "type": "wish"
+            },
+            {
+              "name": "query",
+              "type": "AMAZON.SearchQuery",
+              "samples": [
+                "{query}"
+              ]
+            }
           ],
-          "types": [
-              {
-                  "name": "wish",
-                  "values": [
-                      {
-                          "name": {
-                              "value": "メッセージ"
-                          }
-                      },
-                      {
-                          "name": {
-                              "value": "登録"
-                          }
-                      },
-                      {
-                          "name": {
-                              "value": "お願い"
-                          }
-                      },
-                      {
-                          "name": {
-                              "value": "伝言"
-                          }
-                      },
-                      {
-                          "name": {
-                              "value": "願い事"
-                          }
-                      }
-                  ]
-              },
-              {
-                  "name": "class",
-                  "values": [
-                      {
-                          "id": "other",
-                          "name": {
-                              "value": "違う人",
-                              "synonyms": [
-                                  "その他",
-                                  "パパじゃない"
-                              ]
-                          }
-                      },
-                      {
-                          "id": "mom",
-                          "name": {
-                              "value": "ママ",
-                              "synonyms": [
-                                  "お母さん",
-                                  "母"
-                              ]
-                          }
-                      },
-                      {
-                          "id": "child",
-                          "name": {
-                              "value": "パパじゃない",
-                              "synonyms": [
-                                  "子供",
-                                  "child",
-                                  "子"
-                              ]
-                          }
-                      },
-                      {
-                          "id": "parent",
-                          "name": {
-                              "value": "パパ",
-                              "synonyms": [
-                                  "お父さん",
-                                  "父"
-                              ]
-                          }
-                      }
-                  ]
-              },
-              {
-                  "name": "confirm",
-                  "values": [
-                      {
-                          "id": "no",
-                          "name": {
-                              "value": "消しません",
-                              "synonyms": [
-                                  "やめる",
-                                  "やだ",
-                                  "嫌",
-                                  "no",
-                                  "いいえ"
-                              ]
-                          }
-                      },
-                      {
-                          "id": "yes",
-                          "name": {
-                              "value": "消します",
-                              "synonyms": [
-                                  "削除",
-                                  "いいよ",
-                                  "うん",
-                                  "ok",
-                                  "yes",
-                                  "はい"
-                              ]
-                          }
-                      }
-                  ]
-              },
-              {
-                  "name": "productName",
-                  "values": [
-                      {
-                          "name": {
-                              "value": "拡張機能"
-                          }
-                      },
-                      {
-                          "name": {
-                              "value": "プレミアム"
-                          }
-                      },
-                      {
-                          "name": {
-                              "value": "プレミアム機能"
-                          }
-                      }
-                  ]
-              }
+          "samples": [
+            "パパに {wish}",
+            "{wish} を聞いて",
+            "{wish} を登録",
+            "{wish} をする"
           ]
-      },
-      "dialog": {
-          "intents": [
-              {
-                  "name": "WishAddIntent",
-                  "confirmationRequired": false,
-                  "prompts": {},
-                  "slots": [
-                      {
-                          "name": "wish",
-                          "type": "wish",
-                          "confirmationRequired": false,
-                          "elicitationRequired": false,
-                          "prompts": {}
-                      },
-                      {
-                          "name": "query",
-                          "type": "AMAZON.SearchQuery",
-                          "confirmationRequired": false,
-                          "elicitationRequired": true,
-                          "prompts": {
-                              "elicitation": "Elicit.Slot.1126814948751.481072926180"
-                          }
-                      }
-                  ]
-              },
-              {
-                  "name": "WishDeleteIntent",
-                  "confirmationRequired": false,
-                  "prompts": {},
-                  "slots": [
-                      {
-                          "name": "wish",
-                          "type": "wish",
-                          "confirmationRequired": false,
-                          "elicitationRequired": false,
-                          "prompts": {}
-                      },
-                      {
-                          "name": "confirm",
-                          "type": "confirm",
-                          "confirmationRequired": false,
-                          "elicitationRequired": true,
-                          "prompts": {
-                              "elicitation": "Elicit.Slot.805765746579.982536864268"
-                          }
-                      }
-                  ]
-              }
+        },
+        {
+          "name": "WishListIntent",
+          "slots": [
+            {
+              "name": "wish",
+              "type": "wish"
+            }
           ],
-          "delegationStrategy": "ALWAYS"
-      },
-      "prompts": [
-          {
-              "id": "Elicit.Slot.1126814948751.481072926180",
-              "variations": [
-                  {
-                      "type": "PlainText",
-                      "value": "伝言を言ってください。ではどうぞ。"
-                  }
+          "samples": [
+            "{wish} を確認",
+            "{wish} のリスト",
+            "{wish} を見る",
+            "{wish} を聞く",
+            "{wish} を教えて"
+          ]
+        },
+        {
+          "name": "WishDeleteIntent",
+          "slots": [
+            {
+              "name": "wish",
+              "type": "wish"
+            },
+            {
+              "name": "confirm",
+              "type": "confirm",
+              "samples": [
+                "{confirm}"
               ]
-          },
-          {
-              "id": "Elicit.Slot.805765746579.982536864268",
-              "variations": [
-                  {
-                      "type": "PlainText",
-                      "value": "伝言を消しますか？消す場合は「消します」、やめる場合は「消しません」と答えてください"
-                  }
-              ]
-          }
+            }
+          ],
+          "samples": [
+            " {wish} を消して",
+            " {wish} を消す",
+            " {wish} を削除"
+          ]
+        },
+        {
+          "name": "AnswerClassIntent",
+          "slots": [
+            {
+              "name": "class",
+              "type": "class"
+            }
+          ],
+          "samples": [
+            "{class}",
+            "{class} です"
+          ]
+        },
+        {
+          "name": "PremiumInfoIntent",
+          "slots": [
+            {
+              "name": "productName",
+              "type": "productName"
+            }
+          ],
+          "samples": [
+            "パパの目安箱の {productName}",
+            "{productName} が知りたい",
+            "{productName} について知りたい",
+            "{productName} について教えて",
+            "{productName} について",
+            "{productName} を教えて"
+          ]
+        },
+        {
+          "name": "BuyIntent",
+          "slots": [
+            {
+              "name": "productName",
+              "type": "productName"
+            }
+          ],
+          "samples": [
+            "{productName} を使う",
+            "{productName} を契約",
+            "{productName} を買う",
+            "{productName} を購入"
+          ]
+        },
+        {
+          "name": "ShoppingIntent",
+          "samples": [
+            "有効なアイテムを教えて",
+            "何を買ったか教えて",
+            "プレミアム機能は有効ですか"
+          ]
+        },
+        {
+          "name": "CancelSubscriptionIntent",
+          "slots": [
+            {
+              "name": "productName",
+              "type": "productName"
+            }
+          ],
+          "samples": [
+            "{productName} を返金",
+            "{productName} を返品",
+            "{productName} をキャンセル"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "メッセージ"
+              }
+            },
+            {
+              "name": {
+                "value": "登録"
+              }
+            },
+            {
+              "name": {
+                "value": "お願い"
+              }
+            },
+            {
+              "name": {
+                "value": "伝言"
+              }
+            },
+            {
+              "name": {
+                "value": "願い事"
+              }
+            }
+          ],
+          "name": "wish"
+        },
+        {
+          "values": [
+            {
+              "id": "other",
+              "name": {
+                "value": "違う人",
+                "synonyms": [
+                  "その他",
+                  "パパじゃない"
+                ]
+              }
+            },
+            {
+              "id": "mom",
+              "name": {
+                "value": "ママ",
+                "synonyms": [
+                  "お母さん",
+                  "母"
+                ]
+              }
+            },
+            {
+              "id": "child",
+              "name": {
+                "value": "パパじゃない",
+                "synonyms": [
+                  "子供",
+                  "child",
+                  "子"
+                ]
+              }
+            },
+            {
+              "id": "parent",
+              "name": {
+                "value": "パパ",
+                "synonyms": [
+                  "お父さん",
+                  "父"
+                ]
+              }
+            }
+          ],
+          "name": "class"
+        },
+        {
+          "values": [
+            {
+              "id": "no",
+              "name": {
+                "value": "消しません",
+                "synonyms": [
+                  "やめる",
+                  "やだ",
+                  "嫌",
+                  "no",
+                  "いいえ"
+                ]
+              }
+            },
+            {
+              "id": "yes",
+              "name": {
+                "value": "消します",
+                "synonyms": [
+                  "削除",
+                  "いいよ",
+                  "うん",
+                  "ok",
+                  "yes",
+                  "はい"
+                ]
+              }
+            }
+          ],
+          "name": "confirm"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "拡張機能"
+              }
+            },
+            {
+              "name": {
+                "value": "プレミアム"
+              }
+            },
+            {
+              "name": {
+                "value": "プレミアム機能"
+              }
+            }
+          ],
+          "name": "productName"
+        }
       ]
-  }
+    },
+    "dialog": {
+      "intents": [
+        {
+          "name": "WishAddIntent",
+          "confirmationRequired": false,
+          "prompts": {},
+          "slots": [
+            {
+              "name": "wish",
+              "type": "wish",
+              "elicitationRequired": false,
+              "confirmationRequired": false,
+              "prompts": {}
+            },
+            {
+              "name": "query",
+              "type": "AMAZON.SearchQuery",
+              "elicitationRequired": true,
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.1126814948751.481072926180"
+              }
+            }
+          ]
+        },
+        {
+          "name": "WishDeleteIntent",
+          "confirmationRequired": false,
+          "prompts": {},
+          "slots": [
+            {
+              "name": "wish",
+              "type": "wish",
+              "elicitationRequired": false,
+              "confirmationRequired": false,
+              "prompts": {}
+            },
+            {
+              "name": "confirm",
+              "type": "confirm",
+              "elicitationRequired": true,
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.805765746579.982536864268"
+              }
+            }
+          ]
+        }
+      ],
+      "delegationStrategy": "ALWAYS"
+    },
+    "prompts": [
+      {
+        "id": "Elicit.Slot.1126814948751.481072926180",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "伝言を言ってください。ではどうぞ。"
+          }
+        ]
+      },
+      {
+        "id": "Elicit.Slot.805765746579.982536864268",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "伝言を消しますか？消す場合は「消します」、やめる場合は「消しません」と答えてください"
+          }
+        ]
+      }
+    ]
+  },
+  "version": "157"
 }

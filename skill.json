@@ -31,8 +31,8 @@
       "locales": {
         "ja-JP": {
           "name": "パパの目安箱",
-          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/9c8b/92f48a0846a54ca2b95ac8c60b1bbf54/APP_ICON?versionId=Vxwjwl00j0XV6g1NVhmHoUr7jONYGnde&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20191118T115630Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20191118%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=7946bdda6cd78312320976c4ab11920ce4e0093425e62449518cab31e5719bd4",
-          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/9174/1b04520cbda04f84827fc4d2811d6d30/APP_ICON_LARGE?versionId=A9k4TKqWUfoP_S2C_LDBZoAPa6qSeyuZ&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20191118T115630Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20191118%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=8c9f71d0b05141457eb43c8311126dcd8eafa029b696224a65c6e721454dcac8",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/9c8b/92f48a0846a54ca2b95ac8c60b1bbf54/APP_ICON?versionId=Vxwjwl00j0XV6g1NVhmHoUr7jONYGnde&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20191129T130957Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86399&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20191129%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=d9edd7542668022792bd6f67e589b869fb71888c7240902bdd3a3906dde6c5c2",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/9174/1b04520cbda04f84827fc4d2811d6d30/APP_ICON_LARGE?versionId=A9k4TKqWUfoP_S2C_LDBZoAPa6qSeyuZ&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20191129T130957Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20191129%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=c6729c23efc8f6b920718f876c84fe8efa8b55a37f21a8b31da1e647b877cf94",
           "summary": "パパへの伝言やお願いを登録するためのスキル",
           "description": "普段、パパに言いにくいような事をスキルを通じて伝えましょう。\n伝言や、お願い、日頃のお礼など、パパに伝えたい事を登録しましょう。\n\n※このスキルはパーソナライズ機能の有効かと音声プロフィールの登録が必須となります。\n\nパパ以外の人：\n　・伝言などのメッセージを登録します。\nパパ\n　・パパ以外の人が登録した伝言を確認します。\n\n\n--\nスキルアイコンはいらすとやさまのものを使用させていただきました。\nhttps://www.irasutoya.com/",
           "examplePhrases": [
